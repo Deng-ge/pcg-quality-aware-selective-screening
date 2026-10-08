@@ -1,0 +1,27 @@
+seed: 42
+
+audio:
+  sample_rate: 2000
+  clip_seconds: 8.0
+
+filter:
+  low_hz: 20.0
+  high_hz: 800.0
+  order: 4
+
+logmel:
+  n_mels: 64
+  n_fft: 256
+  hop_length: 80
+  f_min: 20.0
+  f_max: 800.0
+
+quality:
+  min_quality_score: 0.55
+  low_confidence_threshold: 0.60
+  min_rms: 0.015
+  max_lowfreq_ratio: 0.25
+  max_highfreq_ratio: 0.35
+  max_clipping_ratio: 0.005
+  max_flatline_ratio: 0.05
+
